@@ -24,11 +24,12 @@ body {
 
 .video_area > div > video {
     height: 200px;
+    vertical-align: top;
 }
 
 .video_area > div > p {
     margin-top: 0.5em;
-    margin-bottom: 0;
+    margin-bottom: 1.5em;
 }
 
 .img_area {
