@@ -45,12 +45,24 @@ body {
     margin-right: 10px;
 }
 
-.img_area > div > img {
+.img_area > div > a {
+    color: black;
+    height: 260px;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img_area > div > a:hover {
+    text-decoration: underline;
+}
+
+.img_area > div > a >img {
     height: 200px;
     vertical-align: top;
 }
 
-.img_area > div > p {
+.img_area > div > a > p {
     margin-top: 0.5em;
     margin-bottom: 1.5em;
 }
